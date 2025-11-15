@@ -1,0 +1,37 @@
+# WordPress core / runtime (opcional: si no quieres subir todo WP)
+wp-admin/
+wp-includes/
+xmlrpc.php
+
+# Sensitive and local data
+wp-config.php
+*.key
+*.pem
+*.crt
+
+# DB and backups
+db-data/
+*.sql
+*.sql.gz
+*.zip
+
+# User uploads and caches
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup-db/
+
+# Node, PHP vendor, etc.
+node_modules/
+vendor/
+.env
+.DS_Store
+
+# Composer / npm lock (optional to keep)
+# composer.lock
+# package-lock.json
+
+
+# Composer / npm lock (optional to keep)
+# composer.lock
+# package-lock.json
